@@ -1,0 +1,43 @@
+.container {
+    cursor: default;
+}
+/* 1. */
+tr:only-child {
+    color: blue;
+}
+/* 2. */
+th:nth-child(3n) {
+    color: blueviolet;
+}
+/* 3. */
+th:first-child {
+    font-weight: bold;
+}
+/* 4. */
+td:nth-child(4) {
+    text-decoration: line-through;
+}
+/* 5. */
+tr:nth-child(2) {
+    color: rgb(75, 90, 139);
+}
+/* 1. */
+td:hover {
+    background: thistle;
+}
+/* 2. */
+a[target="_blank"]:visited {
+    color: crimson;
+}
+/* 3. */
+a[target="_self"]:link {
+    font-weight: bold;
+}
+/* 4. */
+tr:not(.tier) {
+    outline: 1px solid #333;
+}
+/* 5. */
+td:hover {
+    cursor: default;
+}
