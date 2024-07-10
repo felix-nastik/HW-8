@@ -1,0 +1,12 @@
+h3:first-child {
+    color: pink;
+}
+p:nth-child(3):not(:disabled) {
+    color: grey;
+}
+div > p:only-child {
+    color: red;
+}
+p:nth-child(7) {
+    color: green;
+}
